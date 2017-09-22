@@ -1,9 +1,10 @@
 package android.jet.singleton;
 
-public class Singleton {
+public enum  Singleton {
 
-	public static void main(String[] args) {
-		System.out.print("测试");
-	}
+		singleton;
+
+		public void singletonFunc() { // 该单例需要实现的功能
+		}
 
 }

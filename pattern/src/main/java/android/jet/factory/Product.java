@@ -5,8 +5,8 @@ package android.jet.factory;
  * @description：
  * @date：2017/9/20
  */
-public interface Factory {
+public interface Product {
 
-	public Product factory();
+	public void product();
 
 }

@@ -18,7 +18,7 @@ public class BuilderA implements IBuilder {
 	@Override
 	public void buildPart2() {
 		System.out.println("构造兰博基尼的第二部分。");
-		production.setPart1("This is part2 of Lamborghini");
+		production.setPart2("This is part2 of Lamborghini");
 	}
 
 	@Override

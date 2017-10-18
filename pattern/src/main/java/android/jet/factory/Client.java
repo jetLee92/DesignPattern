@@ -14,7 +14,6 @@ public class Client {
 		Product iceCream = iceCreamFactory.factory();
 		iceCream.product();
 
-
 		// 生产披萨
 		Factory pizzaFactory = new PizzaFactory();
 		Product pizza = pizzaFactory.factory();
